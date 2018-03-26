@@ -7,4 +7,4 @@ bot.on("ready" , function() {
 console.log("Zangdhar est connecté");
 });
 
-bot.login("NDI3ODA3Njk0ODAwMjg5Nzky.DZp6mQ.x86CGbvUPH0NCsOcy5AZmyHS_Ys");
+bot.login(process.env.TOKEN);
