@@ -2,8 +2,6 @@ const Discord = require("discord.js");
 
 var bot = new Discord.Client();
 
-var prefix = ("*")
-
 bot.on("ready" , function() {
   bot.user.setGame("Respecte ma p*tain d'autorité !");
 console.log("Zangdhar est connecté");
@@ -11,6 +9,7 @@ console.log("Zangdhar est connecté");
 
 bot.login(process.env.TOKEN);
 
+var prefix = ("*")
 
 bot;on("message", message => {
   if (message.content === prefix + "help"){
