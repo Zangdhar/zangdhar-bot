@@ -18,13 +18,14 @@ bot;on("message", message => {
   }
   
   if (message.content === "salut"){
-   message.reply("Bonjour ! ça va ?") 
+   message.reply("Bonjour ! ça va ?"); 
   }
   
   if (message.content === "oui et toi ?"){
-   message.reply("ça va nickel merci ^^") 
+   message.reply("ça va nickel merci ^^"); 
   }
   
   if (message.content === "pd"){
-   message.reply("Sueveilles ton language ou je te Ban Def !") 
-  };
+   message.reply("Sueveilles ton language ou je te Ban Def !");
+  console.log("Commande Salut Effectué")
+  }
