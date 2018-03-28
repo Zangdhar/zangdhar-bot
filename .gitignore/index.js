@@ -29,4 +29,4 @@ bot;on("message", message => {
   if (message.content === "pd"){
    message.reply("Sueveilles ton language ou je te Ban Def !");
   console.log("Commmade Avertissement Language Effectué");
-  }
+  });
