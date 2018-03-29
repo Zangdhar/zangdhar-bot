@@ -11,7 +11,7 @@ bot.login(process.env.TOKEN);
 var prefix = (":::");
 
 
-bot.on("guildMemberAdd", member=> {
+bot.on("guildMemberAdd", member => {
 member.guild.channels.find("name", "general").send('Bienvenue ${member}')
 })
 
